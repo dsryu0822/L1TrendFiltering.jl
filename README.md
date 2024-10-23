@@ -1,6 +1,6 @@
 # L1TrendFiltering.jl
 
-A julia implementation for [l1 trend filtering](https://web.stanford.edu/~gorin/papers/l1_trend_filter.pdf).
+A julia implementation for [l1 trend filtering](https://web.stanford.edu/~gorin/papers/l1_trend_filter.pdf). It's just a translation of [original matlab code](https://web.stanford.edu/~boyd/l1_tf/), but something minor has been changed and readability is improved.
 
 ## Usage
 
