@@ -1,0 +1,9 @@
+name = "L1TrendFiltering"
+uuid = "b2ecaf23-c471-4976-bbc3-22be69e1f6bb"
+authors = ["dsryu0822 <dsryu0822@kakao.com>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
