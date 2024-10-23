@@ -17,4 +17,4 @@ plot!(y, label = "S&P500")
 plot!(x, label = "l1tf")
 ```
 
-![snp](test/snp.png)
+![snp](test/snp500.png)
