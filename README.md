@@ -4,6 +4,15 @@ A julia implementation for [l1 trend filtering](https://web.stanford.edu/~gorin/
 
 ## Usage
 
+ - This package includes a dataset `snp500` as a vector.
+ - The function `l1tf` returns the result `L1tf` object. `L1tf` has two properties:
+   - `x`: `Vector{T}`, output of $l_{1}$ trend filtering.
+   - `solved`: `Bool`, if the solution is converged, then `true`.
+
+In this package, `l1tf` allows changing other parameters, for instance, linesearch parameters $\alpha$ and $\beta$.
+
+### Example
+
 ```julia
 using L1TrendFiltering
 using Plots, CSV, DataFrames
